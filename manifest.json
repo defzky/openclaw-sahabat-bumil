@@ -1,0 +1,22 @@
+{
+  "name": "sahabat-bumil",
+  "version": "1.0.0",
+  "description": "Indonesian Pregnancy Guide - Nutrition, wellness, and support for Indonesian moms",
+  "author": "Bowo (Fajrizky) <dev.fajrizky@gmail.com>",
+  "category": "Health & Wellness",
+  "tags": ["pregnancy", "indonesian", "nutrition", "mom", "baby", "bumil", "kehamilan", "health", "young-mom"],
+  "license": "MIT",
+  "repository": "https://github.com/defzky/openclaw-sahabat-bumil",
+  "requirements": ["requests>=2.28.0"],
+  "features": [
+    "Indonesian foods safe for pregnancy",
+    "Traditional Indonesian recipes",
+    "Morning sickness management",
+    "Young mom nutrition (age 22-30)",
+    "Warung/restaurant safety guide",
+    "Pregnancy tracking",
+    "Hospital bag checklist",
+    "BPJS coverage guide",
+    "Financial planning for Indonesian hospitals"
+  ]
+}
