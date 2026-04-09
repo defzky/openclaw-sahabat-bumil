@@ -1,7 +1,7 @@
 {
   "name": "sahabat-bumil",
-  "version": "1.2.0",
-  "description": "Indonesian Pregnancy Guide - Nutrition, wellness, MBG program support for Indonesian moms",
+  "version": "1.0.0",
+  "description": "Indonesian Pregnancy Guide - Nutrition, wellness, and support for Indonesian moms",
   "author": "Bowo (Fajrizky) <dev.fajrizky@gmail.com>",
   "category": "Health & Wellness",
   "tags": [
@@ -13,127 +13,12 @@
     "bumil",
     "kehamilan",
     "health",
-    "wellness",
-    "young-mom",
-    "mbg",
-    "makan-bergizi-gratis"
+    "young-mom"
   ],
   "license": "MIT",
   "repository": "https://github.com/defzky/openclaw-sahabat-bumil",
-  "homepage": "https://github.com/defzky/openclaw-sahabat-bumil#readme",
   "requirements": [
-    "requests>=2.28.0",
-    "playwright>=1.40.0"
-  ],
-  "commands": [
-    {
-      "command": "nutrition foods",
-      "description": "Safe Indonesian foods for pregnancy"
-    },
-    {
-      "command": "nutrition avoid",
-      "description": "Foods to avoid during pregnancy"
-    },
-    {
-      "command": "nutrition recipes",
-      "description": "Traditional Indonesian recipes"
-    },
-    {
-      "command": "nutrition morning-sickness",
-      "description": "Morning sickness management tips"
-    },
-    {
-      "command": "nutrition young-mom",
-      "description": "Nutrition guide for young moms"
-    },
-    {
-      "command": "nutrition warung",
-      "description": "Eating outside safety guide"
-    },
-    {
-      "command": "pregnancy week",
-      "description": "Calculate current pregnancy week"
-    },
-    {
-      "command": "pregnancy trimester",
-      "description": "Trimester information"
-    },
-    {
-      "command": "health symptoms",
-      "description": "Common pregnancy symptoms"
-    },
-    {
-      "command": "health weight",
-      "description": "Track weight gain"
-    },
-    {
-      "command": "prep hospital-bag",
-      "description": "Hospital bag checklist"
-    },
-    {
-      "command": "prep registry",
-      "description": "Baby registry guide"
-    },
-    {
-      "command": "finance budget",
-      "description": "Cost estimates for pregnancy"
-    },
-    {
-      "command": "finance bpjs",
-      "description": "BPJS coverage information"
-    },
-    {
-      "command": "finance tips",
-      "description": "Money-saving tips"
-    },
-    {
-      "command": "mbg info",
-      "description": "MBG program complete information"
-    },
-    {
-      "command": "mbg register",
-      "description": "MBG registration guide (8 steps)"
-    },
-    {
-      "command": "mbg documents",
-      "description": "MBG required documents checklist"
-    },
-    {
-      "command": "mbg schedule",
-      "description": "MBG distribution schedule tracker"
-    },
-    {
-      "command": "mbg benefits",
-      "description": "MBG all benefits explained"
-    },
-    {
-      "command": "mbg monitoring",
-      "description": "MBG health monitoring schedule"
-    },
-    {
-      "command": "mbg budget",
-      "description": "MBG budget & allocation info"
-    },
-    {
-      "command": "mbg statistics",
-      "description": "MBG program impact statistics"
-    },
-    {
-      "command": "mbg regional",
-      "description": "MBG regional implementation info"
-    },
-    {
-      "command": "mbg latest",
-      "description": "MBG latest news & updates"
-    },
-    {
-      "command": "mbg faq",
-      "description": "MBG frequently asked questions"
-    },
-    {
-      "command": "mbg challenges",
-      "description": "MBG common issues & solutions"
-    }
+    "requests>=2.28.0"
   ],
   "features": [
     "Indonesian foods safe for pregnancy",
@@ -141,38 +26,39 @@
     "Morning sickness management",
     "Young mom nutrition (age 22-30)",
     "Warung/restaurant safety guide",
-    "Pregnancy week tracking",
-    "Trimester-specific guidance",
+    "Pregnancy tracking",
     "Hospital bag checklist",
     "BPJS coverage guide",
-    "Financial planning for Indonesian hospitals",
-    "Emotional support for first-time moms",
-    "MBG program integration (Makan Bergizi Gratis)",
-    "MBG registration assistance",
-    "MBG distribution schedule tracking",
-    "MBG health monitoring",
-    "Latest 2026 MBG data"
+    "Financial planning for Indonesian hospitals"
   ],
-  "target_audience": [
-    "Indonesian pregnant women",
-    "First-time moms",
-    "Young moms (age 22-30)",
-    "Indonesian expats",
-    "Healthcare workers",
-    "MBG program recipients"
-  ],
-  "languages": [
-    "Indonesian (Bahasa Indonesia)",
-    "English"
-  ],
-  "region": "Indonesia",
-  "minimum_openclaw_version": "2026.3.13",
-  "test_commands": [
-    "/nutrition foods",
-    "/nutrition morning-sickness",
-    "/prep hospital-bag",
-    "/finance bpjs",
-    "/mbg info",
-    "/mbg register"
-  ]
+  "roadmap": {
+    "v1.1.0": {
+      "status": "released",
+      "date": "2026-04-07",
+      "features": [
+        "Contraction timer for labor tracking",
+        "Kick counter for baby movement tracking",
+        "When to go to hospital guidance",
+        "All v1.0.0 features"
+      ]
+    },
+    "v1.2.0": {
+      "status": "coming_soon",
+      "features": [
+        "Hospital database (Jakarta, Bandung, Surabaya)",
+        "Prenatal class finder",
+        "Weight tracker with charts",
+        "Symptom tracker"
+      ]
+    },
+    "v1.3.0": {
+      "status": "future",
+      "features": [
+        "Baby name generator (Indonesian names)",
+        "Community features",
+        "Expert Q&A sessions",
+        "Postpartum support"
+      ]
+    }
+  }
 }
