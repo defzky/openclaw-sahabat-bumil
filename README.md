@@ -434,7 +434,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Indonesian Ministry of Health (Kemenkes) for MBG program data
+- **BGN (Badan Gizi Nasional)** - For MBG program data and guidance ⭐
+- Indonesian Ministry of Health (Kemenkes) for health information
 - BPJS Kesehatan for healthcare coverage information
 - OpenClaw community for the amazing platform
 - All Indonesian moms who inspired this project
