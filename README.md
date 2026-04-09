@@ -422,7 +422,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Bowo (Fajrizky)**
+**Fajrizky**
 
 - GitHub: [@defzky](https://github.com/defzky)
 - Email: dev.fajrizky@gmail.com
